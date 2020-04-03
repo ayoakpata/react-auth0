@@ -7,7 +7,7 @@ class Thetopper extends Component {
       <Navbar>
         <Navbar.Brand>searcher-logo</Navbar.Brand>
         <Nav>
-          <NavItem href='#'>login</NavItem>
+          <a href='#'>login</a>
         </Nav>
       </Navbar>
     );
