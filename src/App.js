@@ -6,7 +6,7 @@ import Thetopper from './Components/Thetopper';
 
 class App extends Component {
   static defaultProps = {
-    clientId: 'adPowHSgvC2MiQiZnmgv0mLXG1gnx66q',
+    clientID: 'adPowHSgvC2MiQiZnmgv0mLXG1gnx66q',
     domain: 'dev-4k-3rwkf.auth0.com'
   };
 
