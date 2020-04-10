@@ -14,7 +14,7 @@ class Thetopper extends Component {
     let logpage;
     if (this.props.idToken) {
       logpage = (
-        <NavItem onClick={this.onLogin.bind(this)} href='#'>
+        <NavItem onClick={this.onLogout.bind(this)} href='#'>
           logout
         </NavItem>
       );

@@ -21,6 +21,14 @@ class App extends Component {
   };
   //user not signed in
   componentWillMount() {
+    // axios
+    //   .get(
+    //     'https://cors-anywhere.herokuapp.com/https://dev-4k-3rwkf.auth0.com/co/authenticate/'
+    //   )
+    //   .then(data => {
+    //     console.log(data);
+    //   });
+
     this.lock = new Auth0Lock(this.props.clientID, this.props.domain);
     this.lock.on('authenticated', authResult => {
       //console.log(authResult);
